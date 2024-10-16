@@ -12,5 +12,6 @@ namespace StudentMigrations.CRUD.Data
         }
 
         public DbSet<Student> Students { get; set; }
+        public DbSet<Movie> Movies { get; set; }
     }
 }

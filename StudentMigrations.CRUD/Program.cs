@@ -20,7 +20,7 @@ namespace StudentMigrations.CRUD
 
 			app.MapControllerRoute(
 				name: "default",
-				pattern: "{controller=Students}/{action=Index}/{id?}");
+				pattern: "{controller=Home}/{action=Index}/{id?}");
 
 			app.Run();
 		}
